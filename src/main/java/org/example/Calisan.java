@@ -53,4 +53,9 @@ public class Calisan {
     public void yemekhane(){
         System.out.println(this.name + "YEMEKHANEDEN YEMEK YİYİLDİ");
     }
+    public static void girisYapanlar(Calisan[] calisans){
+        for (Calisan calisan:calisans) {
+            calisan.giris();
+        }
+    }
 }

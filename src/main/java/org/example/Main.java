@@ -27,6 +27,7 @@ public class Main {
                 "BİYOLOJİ",
                 "PROFESÖR"
         );
+        memur1.giris();
         memur1.calis();
 
         OgretimGorevlisi ogretimGorevlisi1=new OgretimGorevlisi(
@@ -63,5 +64,15 @@ public class Main {
                 "17,30"
         );
         labAsistani1.derseGir();
+        // Polymorfizm ornek
+        Calisan[] calisans=new Calisan[]{
+                calisan1,
+                akademisyen1,
+                memur1,
+                ogretimGorevlisi1,
+                asistan1,
+                labAsistani1
+        };
+        Calisan.girisYapanlar(calisans);
     }
 }

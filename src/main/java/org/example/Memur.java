@@ -29,4 +29,8 @@ public class Memur extends Calisan{
     public void calis(){
         System.out.println(this.getName() + "MEMUR ÇALIŞTI");
     }
+    @Override
+    public void giris(){
+        System.out.println(this.getName() + "MEMUR C KAPISINDAN GİRİŞ YAPTI");
+    }
 }
