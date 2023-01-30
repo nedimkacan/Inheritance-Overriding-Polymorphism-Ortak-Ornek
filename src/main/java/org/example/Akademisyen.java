@@ -28,4 +28,8 @@ public class Akademisyen extends Calisan{
     public void derseGir(){
         System.out.println(this.getName() + "AKADEMİSYEN DERSE GİRDİ");
     }
+    @Override
+    public void giris(){
+        System.out.println(this.getName() + "AKADEMİSYEN A KAPISINDAN GİRDİ");
+    }
 }

@@ -20,4 +20,8 @@ public class OgretimGorevlisi extends Akademisyen{
     public void sinavYap(){
         System.out.println(this.getName() + "ÖĞRETİM GÖREVLİSİ SINAV YAPTI");
     }
+    @Override
+    public void giris(){
+        System.out.println(this.getName() + "ÖĞRETİM GÖREVLİSİ B KAPISINDAN GİRİŞ YAPTI");
+    }
 }

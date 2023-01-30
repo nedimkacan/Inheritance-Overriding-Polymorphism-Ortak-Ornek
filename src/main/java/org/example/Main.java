@@ -15,6 +15,7 @@ public class Main {
                 "FİZİK",
                 "DOÇENT"
         );
+        akademisyen1.giris();
         akademisyen1.derseGir();
         akademisyen1.cikis();
 
@@ -37,6 +38,7 @@ public class Main {
                 "OĞRETİM GÖREVLİSİ",
                 45
         );
+        ogretimGorevlisi1.giris();
         ogretimGorevlisi1.senatoToplanti();
         ogretimGorevlisi1.sinavYap();
 
